@@ -32,39 +32,5 @@
 		},
 		"footnotes": {},
 		"type": "UD"
-	},
-	{
-		"names": [
-			"LCMD+LCTRL+LALT"
-		],
-		"description": "LCMD+LCTRL+LALT",
-		"clarify": false,
-		"documentation": "",
-		"os": {
-			"windows": true,
-			"linux": true,
-			"android": true,
-			"macos": true,
-			"ios": true
-		},
-		"footnotes": {},
-		"type": "UD"
-	},
-	{
-		"names": [
-			"LCMD+LCTRL+LALT+"
-		],
-		"description": "LCMD+LCTRL+LALT+",
-		"clarify": false,
-		"documentation": "",
-		"os": {
-			"windows": true,
-			"linux": true,
-			"android": true,
-			"macos": true,
-			"ios": true
-		},
-		"footnotes": {},
-		"type": "UD"
 	}
 ]
