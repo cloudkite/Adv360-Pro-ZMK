@@ -90,11 +90,11 @@
 
         layer_Right {
             bindings = <
- &trans    &trans    &trans    &trans    &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans    &trans    &trans    &trans    &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &kp LBKT  &kp RBKT  &kp LPAR  &kp RPAR  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans    &trans    &trans    &trans    &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans    &trans    &trans    &trans    &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans     &trans    &trans    &trans          &trans    &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &kp GRAVE   &kp SQT  &kp BSLH  &kp UNDERSCORE  &kp PIPE            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans   &kp LBKT  &kp RBKT  &kp LPAR        &kp RPAR  &kp EXCL            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans     &trans   &kp DQT  &kp FSLH       &kp MINUS  &kp AMPS                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans     &trans    &trans    &trans          &trans                      &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
