@@ -90,11 +90,11 @@
 
         layer_symbols {
             bindings = <
- &trans  &trans    &trans     &trans             &trans  &trans             &trans                                                         &trans  &trans     &trans         &trans     &trans  &trans  &trans
- &trans  &trans  &kp RBKT   &kp RPAR    &kp RIGHT_BRACE  &trans             &trans                                                         &trans  &trans  &kp ASTRK  &kp BACKSLASH  &kp UNDER  &trans  &trans
- &trans  &trans  &kp LBKT   &kp LPAR     &kp LEFT_BRACE  &trans             &trans    &trans  &trans                  &trans    &trans     &trans  &trans  &kp EQUAL       &kp FSLH   &kp EXCL  &trans  &trans
- &trans  &trans    &trans  &kp GRAVE  &kp DOUBLE_QUOTES  &trans                               &trans                  &trans                       &trans   &kp PLUS      &kp MINUS     &trans  &trans  &trans
- &trans  &trans    &trans     &trans             &trans                    &kp DOT  &kp PIPE  &trans                  &trans  &kp AMPS  &kp COMMA             &trans         &trans     &trans  &trans  &trans
+ &trans  &trans    &trans     &trans             &trans  &trans             &trans                                                              &trans  &trans     &trans         &trans     &trans  &trans  &trans
+ &trans  &trans  &kp RBKT   &kp RPAR    &kp RIGHT_BRACE  &trans             &trans                                                              &trans  &trans  &kp ASTRK  &kp BACKSLASH  &kp UNDER  &trans  &trans
+ &trans  &trans  &kp LBKT   &kp LPAR     &kp LEFT_BRACE  &trans             &trans     &trans  &trans                  &trans    &trans         &trans  &trans  &kp EQUAL       &kp FSLH   &kp EXCL  &trans  &trans
+ &trans  &trans    &trans  &kp GRAVE  &kp DOUBLE_QUOTES  &trans                                &trans                  &trans                           &trans   &kp PLUS      &kp MINUS     &trans  &trans  &trans
+ &trans  &trans    &trans     &trans             &trans                    &kp DOT  &kp COMMA  &trans                  &trans  &kp PIPE  &kp AMPERSAND             &trans         &trans     &trans  &trans  &trans
             >;
         };
 
