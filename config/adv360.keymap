@@ -94,17 +94,7 @@
  &trans  &kp ASTERISK         &kp GRAVE  &kp RPAR  &kp RIGHT_BRACKET  &kp PIPE             &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans     &kp EQUAL  &kp SINGLE_QUOTE  &kp LPAR   &kp LEFT_BRACKET  &kp EXCL             &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans     &kp MINUS         &kp COMMA  &kp FSLH      &kp BACKSLASH  &kp AMPS                             &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans        &trans            &trans    &trans             &trans                      &kp DOT  &kp LT  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_mouse {
-            bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans        &trans            &trans    &trans             &trans                      &kp DOT  &kp LT  &kp GT                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
