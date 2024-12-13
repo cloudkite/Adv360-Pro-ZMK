@@ -42,11 +42,11 @@
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                       "&trans", "&kp PG_DN", "&kp PG_UP",    "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                "&trans",    "&trans",    "&trans", "&trans", "&trans"
     ], [
-       "&trans",       "&trans",           "&trans",   "&trans",            "&trans", "&trans",            "&trans",                                                                 "&trans", "&trans",   "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&kp ASTERISK",        "&kp GRAVE", "&kp RPAR", "&kp RIGHT_BRACKET", "&trans",            "&trans",                                                                 "&trans", "&trans",   "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans",    "&kp EQUAL", "&kp SINGLE_QUOTE", "&kp LPAR",  "&kp LEFT_BRACKET", "&trans",            "&trans", "&trans", "&trans",                     "&trans",   "&trans",   "&trans", "&trans", "&kp EXCL", "&trans", "&trans", "&trans", "&trans",
-       "&trans",    "&kp MINUS",        "&kp COMMA", "&kp FSLH",     "&kp BACKSLASH", "&trans",                                "&trans",                     "&trans",                         "&trans",   "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans",       "&trans",           "&trans",   "&trans",            "&trans",                     "&kp DOT", "&kp LT", "&kp GT",                     "&trans", "&kp AMPS", "&kp PIPE",             "&trans", "&trans", "&trans", "&trans", "&trans"
+       "&trans", "&trans",           "&trans",   "&trans",            "&trans", "&trans",            "&trans",                                                                    "&trans", "&trans",    "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans",        "&kp GRAVE", "&kp RPAR", "&kp RIGHT_BRACKET", "&trans",            "&trans",                                                                    "&trans", "&trans", "&kp ASTRK", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&kp SINGLE_QUOTE", "&kp LPAR",  "&kp LEFT_BRACKET", "&trans",            "&trans",    "&trans", "&trans",                     "&trans",   "&trans",   "&trans", "&trans", "&kp EQUAL", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans",           "&trans", "&kp FSLH",     "&kp BACKSLASH", "&trans",                                   "&trans",                     "&trans",                         "&trans", "&kp MINUS", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans",           "&trans",   "&trans",            "&trans",                     "&kp DOT", "&kp COMMA", "&trans",                     "&trans", "&kp AMPS", "&kp PIPE",              "&trans", "&trans", "&trans", "&trans", "&trans"
     ]
   ]
 }
