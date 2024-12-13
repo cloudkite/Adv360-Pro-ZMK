@@ -92,9 +92,9 @@
             bindings = <
  &trans  &trans            &trans    &trans             &trans  &trans             &trans                                                         &trans  &trans     &trans    &trans         &trans  &trans  &trans
  &trans  &trans            &trans  &kp RPAR  &kp RIGHT_BRACKET  &trans             &trans                                                         &trans  &trans  &kp ASTRK    &trans         &trans  &trans  &trans
- &trans  &trans  &kp SINGLE_QUOTE  &kp LPAR   &kp LEFT_BRACKET  &trans             &trans     &trans  &trans                  &trans    &trans    &trans  &trans  &kp EQUAL  &kp FSLH  &kp BACKSLASH  &trans  &trans
- &trans  &trans            &trans    &trans          &kp GRAVE  &trans                                &trans                  &trans                      &trans  &kp MINUS    &trans         &trans  &trans  &trans
- &trans  &trans            &trans    &trans             &trans                    &kp DOT  &kp COMMA  &trans                  &trans  &kp AMPS  &kp PIPE             &trans    &trans         &trans  &trans  &trans
+ &trans  &trans  &kp SINGLE_QUOTE  &kp LPAR   &kp LEFT_BRACKET  &trans             &trans    &trans  &trans                  &trans    &trans     &trans  &trans  &kp EQUAL  &kp FSLH  &kp BACKSLASH  &trans  &trans
+ &trans  &trans            &trans    &trans          &kp GRAVE  &trans                               &trans                  &trans                       &trans  &kp MINUS    &trans         &trans  &trans  &trans
+ &trans  &trans            &trans    &trans             &trans                    &kp DOT  &kp PIPE  &trans                  &trans  &kp AMPS  &kp COMMA             &trans    &trans         &trans  &trans  &trans
             >;
         };
 
