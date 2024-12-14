@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
- &kp EQUAL     &kp N1    &kp N2  &kp N3  &kp N4  &kp N5                   &tog 1                                                                                  &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
-   &kp TAB      &kp Q     &kp W   &kp E   &kp R   &kp T                    &none                                                                                  &none   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
-   &kp ESC      &kp A     &kp S   &kp D   &kp F   &kp G                  &kp TAB                &kp LSHIFT   &kp LALT                   &kp RALT  &kp RSHIFT      &none   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
- &kp LSHFT      &kp Z     &kp X   &kp C   &kp V   &kp B                                                     &kp LCTRL                  &kp RCTRL                          &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp CAPS   &mo 4   &mo 5                    &kp BACKSPACE  &mt LS(LC(LA(LGUI))) ESC   &kp LCMD                   &kp RCMD   &kp ENTER  &kp SPACE           &mo 5      &mo 4  &kp LBKT  &kp RBKT      &mo 2
+ &kp EQUAL     &kp N1    &kp N2  &kp N3  &kp N4  &kp N5                   &tog 1                                                                                     &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
+   &kp TAB      &kp Q     &kp W   &kp E   &kp R   &kp T                    &none                                                                                     &none   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
+   &kp ESC      &kp A     &kp S   &kp D   &kp F   &kp G                    &none              &kp LEFT_GUI   &kp LALT                   &kp RALT  &kp RIGHT_GUI      &none   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
+ &kp LSHFT      &kp Z     &kp X   &kp C   &kp V   &kp B                                                     &kp LCTRL                  &kp RCTRL                             &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
+     &mo 2  &kp GRAVE  &kp CAPS   &mo 4   &mo 5                    &kp BACKSPACE  &mt LS(LC(LA(LGUI))) ESC      &mo 4                    &kp TAB      &kp ENTER  &kp SPACE           &mo 5      &mo 4  &kp LBKT  &kp RBKT      &mo 2
             >;
         };
 
@@ -90,11 +90,11 @@
 
         layer_symbols {
             bindings = <
- &trans  &trans    &trans     &trans             &trans  &trans             &trans                                                              &trans  &trans     &trans         &trans     &trans  &trans  &trans
- &trans  &trans  &kp RBKT   &kp RPAR    &kp RIGHT_BRACE  &trans             &trans                                                              &trans  &trans  &kp ASTRK  &kp BACKSLASH  &kp UNDER  &trans  &trans
- &trans  &trans  &kp LBKT   &kp LPAR     &kp LEFT_BRACE  &trans             &trans     &trans  &trans                  &trans    &trans         &trans  &trans  &kp EQUAL       &kp FSLH   &kp EXCL  &trans  &trans
- &trans  &trans    &trans  &kp GRAVE  &kp DOUBLE_QUOTES  &trans                                &trans                  &trans                           &trans   &kp PLUS      &kp MINUS     &trans  &trans  &trans
- &trans  &trans    &trans     &trans             &trans                    &kp DOT  &kp COMMA  &trans                  &trans  &kp PIPE  &kp AMPERSAND             &trans         &trans     &trans  &trans  &trans
+ &trans  &trans    &trans     &trans             &trans  &trans            &trans                                                           &trans  &trans     &trans         &trans     &trans  &trans  &trans
+ &trans  &trans  &kp RBKT   &kp RPAR    &kp RIGHT_BRACE  &trans            &trans                                                           &trans  &trans  &kp ASTRK  &kp BACKSLASH  &kp UNDER  &trans  &trans
+ &trans  &trans  &kp LBKT   &kp LPAR     &kp LEFT_BRACE  &trans            &trans  &trans  &trans                  &trans    &trans         &trans  &trans  &kp EQUAL       &kp FSLH   &kp EXCL  &trans  &trans
+ &trans  &trans    &trans  &kp GRAVE  &kp DOUBLE_QUOTES  &trans                            &trans                  &trans                           &trans   &kp PLUS      &kp MINUS     &trans  &trans  &trans
+ &trans  &trans    &trans     &trans             &trans                    &trans  &trans  &trans                  &trans  &kp PIPE  &kp AMPERSAND             &trans         &trans     &trans  &trans  &trans
             >;
         };
 
