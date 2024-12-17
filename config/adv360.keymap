@@ -26,12 +26,6 @@
 
 #define QUICK_TAP_MS 175
 
-&lt {  // layer-tap config
-    flavor = "balanced";
-    tapping-term-ms = <200>;
-    quick-tap-ms = <QUICK_TAP_MS>;
-};
-
 / {
     behaviors {
       #include "macros.dtsi"
@@ -46,6 +40,17 @@
         };
 
         #endif
+
+        slt: spacebar_layer_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "SPACE_LAYER_TAP";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <QUICK_TAP_MS>;
+            global-quick-tap;
+            bindings = <&mo>, <&kp>;
+        };
 
         hml: homerow_mods_left {
             compatible = "zmk,behavior-hold-tap";
