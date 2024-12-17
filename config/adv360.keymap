@@ -49,6 +49,7 @@
             tapping-term-ms = <200>;
             quick-tap-ms = <QUICK_TAP_MS>;
             global-quick-tap;
+            retro-tap;
             bindings = <&mo>, <&kp>;
         };
 
