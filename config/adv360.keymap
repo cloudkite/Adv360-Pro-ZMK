@@ -116,11 +116,11 @@
 
         sym {
             bindings = <
-&trans  &trans    &trans         &trans     &trans            &trans         &trans                                                                         &trans  &trans       &trans    &trans                &trans                 &trans        &trans
-&trans  &none     &kp LESS_THAN  &kp SLASH  &kp GREATER_THAN  &kp BACKSLASH  &trans                                                                         &trans  &kp PERCENT  &kp AMPS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none         &trans
-&trans  &kp EXCL  &kp MINUS      &kp PLUS   &kp EQUAL         &kp HASH       &trans             &trans     &trans                &trans      &trans         &trans  &kp DOLLAR   &kp DOT   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &trans
-&trans  &trans    &kp UNDER      &kp ASTRK  &kp AT            &kp CARET                                    &trans                &trans                             &kp TILDE    &kp PIPE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans        &trans
-&trans  &trans    &trans         &trans     &trans                           &kp DOUBLE_QUOTES  &kp GRAVE  &kp SINGLE_QUOTE      &kp DELETE  &kp BACKSPACE  &trans               &trans    &trans                &trans                 &trans        &trans
+&trans  &trans    &trans         &trans     &trans            &trans         &trans                                                              &trans  &trans       &trans    &trans                &trans                 &trans        &trans
+&trans  &none     &kp LESS_THAN  &kp SLASH  &kp GREATER_THAN  &kp BACKSLASH  &trans                                                              &trans  &kp PERCENT  &kp AMPS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none         &trans
+&trans  &kp EXCL  &kp MINUS      &kp PLUS   &kp EQUAL         &kp HASH       &trans             &trans     &trans                &trans  &trans  &trans  &kp DOLLAR   &kp DOT   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &trans
+&trans  &trans    &kp UNDER      &kp ASTRK  &kp AT            &kp CARET                                    &trans                &trans                  &kp TILDE    &kp PIPE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans        &trans
+&trans  &trans    &trans         &trans     &trans                           &kp DOUBLE_QUOTES  &kp GRAVE  &kp SINGLE_QUOTE      &trans  &trans  &trans               &trans    &trans                &trans                 &trans        &trans
             >;
         };
 
