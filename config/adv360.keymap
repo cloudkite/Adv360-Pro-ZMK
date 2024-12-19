@@ -148,11 +148,11 @@
 
         nav {
             bindings = <
-&trans  &trans     &trans    &trans    &trans     &trans  &trans                                      &trans  &trans    &trans         &trans       &trans     &trans  &trans
-&trans  &trans     &trans    &trans    &trans     &trans  &trans                                      &trans  &trans    &trans         &trans       &trans     &trans  &trans
-&trans  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans  &trans
-&trans  &trans     &trans    &trans    &trans     &trans                  &trans      &trans                  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans  &trans
-&trans  &trans     &trans    &trans    &trans             &trans  &trans  &trans      &trans  &trans  &trans            &trans         &trans       &trans     &trans  &trans
+&trans  &trans     &trans     &trans     &trans     &trans  &trans                                      &trans  &trans    &trans         &trans       &trans     &trans  &trans
+&trans  &trans     &trans     &trans     &trans     &trans  &trans                                      &trans  &trans    &trans         &trans       &trans     &trans  &trans
+&trans  &kp LCTRL  &kp LALT   &kp LGUI   &kp LSHFT  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans  &trans
+&trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans                  &trans      &trans                  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans  &trans
+&trans  &trans     &trans     &trans     &trans             &trans  &trans  &trans      &trans  &trans  &trans            &trans         &trans       &trans     &trans  &trans
             >;
         };
 
