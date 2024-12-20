@@ -141,7 +141,7 @@
 &trans  &trans     &trans         &trans     &trans            &trans     &trans                                                              &trans  &trans        &trans                &trans                 &trans     &trans    &trans
 &trans  &none      &kp LESS_THAN  &kp SLASH  &kp BACKSLASH     &kp MINUS  &trans                                                              &trans  &kp QUESTION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none      &none     &trans
 &trans  &kp UNDER  &kp EXCL       &kp EQUAL  &kp GREATER_THAN  &kp CARET  &trans             &trans     &trans                &trans  &trans  &trans  &kp DOLLAR    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPS   &kp PIPE  &trans
-&trans  &trans     &kp HASH       &kp ASTRK  &kp AT            &kp PLUS                                 &trans                &trans                  &none         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE  &trans    &trans
+&trans  &trans     &kp HASH       &kp ASTRK  &kp AT            &kp PLUS                                 &trans                &trans                  &kp SEMI      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE  &trans    &trans
 &trans  &trans     &trans         &trans     &trans                       &kp DOUBLE_QUOTES  &kp GRAVE  &kp SINGLE_QUOTE      &trans  &trans  &trans                &trans                &trans                 &trans     &trans    &trans
             >;
         };
