@@ -102,6 +102,15 @@
     macros {
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <31 30>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
